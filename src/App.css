@@ -10,9 +10,8 @@ body {
 .nav {
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   display: flex;
-
   border-radius: 3px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav > div {
@@ -57,36 +56,45 @@ body {
 .form-container {
   margin-top: 140px;
   padding: 50px;
+  text-align: center;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  border-radius:5px;
- 
+  border: none;
+  box-shadow: 2px 2px 2px 3px rgba(1, 0, 0, 0.5);
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
 }
 
 input:hover {
-border: 2px solid gold;
+  border: 2px solid gold;
 }
-
 
 .btn {
   display: block;
-  width: 100%;
-  padding: 10px;
-  margin-left: 10px;
-  font-family: "Karla";
+  width: 85%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 19px;
   text-align: center;
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   border-radius: 5px;
   color: #ffffff;
   border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(1, 0, 0, 0.5);
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+}
 
+.btn:hover {
+  box-shadow: 2px 2px 2px 1px gold;
 }
