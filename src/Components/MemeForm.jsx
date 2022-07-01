@@ -32,7 +32,7 @@ setMeme( memesArray[randomMemes].url)
              Get a new meme image 🖼
          </button>
      </div>
-     <img src={meme} alt="" />
+     <img className="meme-image" src={meme} alt="" />
  </main>
      
   )

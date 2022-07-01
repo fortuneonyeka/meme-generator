@@ -98,3 +98,13 @@ input:hover {
 .btn:hover {
   box-shadow: 2px 2px 2px 1px gold;
 }
+
+.meme-image {
+  margin-left: 25%;
+  margin-bottom: 10%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
