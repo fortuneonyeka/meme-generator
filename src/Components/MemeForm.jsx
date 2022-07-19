@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import MemesData from "../MemesData"
 
 const MemeForm = () => {
-  const [meme, setMeme] = useState("")
+  const [meme, setMeme] = useState("http://i.imgflip.com/1bij.jpg")
 
   function getMemeImage() {
     const memesArray = MemesData.data.memes
