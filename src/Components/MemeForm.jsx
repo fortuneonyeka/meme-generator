@@ -14,7 +14,11 @@ const [meme, setMeme] = useState({
 const [allMemeImages, setAllMemeImages] = useState(MemesData)
 
   function getMemeImage() {
-    const memesArray = allMemeImages.data.memes
+//     const memesArray = MemesData.data.memes
+//     const randomMemes = Math.floor(Math.random() * memesArray.length)  
+// setMeme( memesArray[randomMemes].url)
+
+const memesArray = allMemeImages.data.memes
     const randomMemes = Math.floor(Math.random() * memesArray.length)  
     const url = memesArray[randomMemes].url
 setMeme((preveMem) => ({
@@ -45,7 +49,7 @@ setMeme((preveMem) => ({
              Get a new meme image 🖼
          </button>
      </div>
-     <img className="meme-image" src={meme.randomImage} alt="" />
+     <img className="meme-image" src={meme} alt="" />
  </main>
      
   )
