@@ -49,7 +49,7 @@ setMeme((preveMem) => ({
              Get a new meme image 🖼
          </button>
      </div>
-     <img className="meme-image" src={meme} alt="" />
+     <img className="meme-image" src={meme.randomImage} alt="" />
  </main>
      
   )
